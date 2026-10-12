@@ -12,7 +12,7 @@
 
 > **per generated second**, Pro and Turbo tiers — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
 
-**[Get an API key](https://go.apimart.ai/k-49aa8d)** · **[Live pricing](https://go.apimart.ai/k-PENDING-viduq3-api-pricing)** · **[Model page](https://go.apimart.ai/k-PENDING-viduq3-api-model)** · [⚡ 60-second quickstart](#quickstart)
+**[Get an API key](https://go.apimart.ai/k-3ad231)** · **[Live pricing](https://go.apimart.ai/k-aee9c4)** · **[Model page](https://go.apimart.ai/k-5852fb)** · [⚡ 60-second quickstart](#quickstart)
 
 **Why teams call Vidu Q3 (`viduq3`) through APIMart**
 
@@ -29,7 +29,7 @@ Vidu Q3 offers Pro for cinematic quality and Turbo for fast generation of text-t
 
 | Route | `model` value | Billing | Notes |
 | --- | --- | --- | --- |
-| Text-to-video / image-to-video | `viduq3` | per generated second, by resolution | see the [model page](https://go.apimart.ai/k-PENDING-viduq3-api-model) for the exact tiers |
+| Text-to-video / image-to-video | `viduq3` | per generated second, by resolution | see the [model page](https://go.apimart.ai/k-5852fb) for the exact tiers |
 
 Endpoint: `POST https://api.apimart.ai/v1/videos/generations` (OpenAI-compatible), then poll `GET /v1/tasks/{task_id}`.
 
@@ -43,7 +43,7 @@ Endpoint: `POST https://api.apimart.ai/v1/videos/generations` (OpenAI-compatible
 
 <!-- pricing:model:end -->
 
-Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-viduq3-api-pricing) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
+Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-aee9c4) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
 
 ## Request parameters
 
@@ -57,7 +57,7 @@ Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-viduq3
 | `image_urls` | string[] | — | first frame, first + last frame, or style references, where supported |
 | `seed` | integer | — | fix the seed to reproduce a take |
 
-The table lists the fields accepted by the APIMart OpenAI-compatible video endpoint. Check the [model page](https://go.apimart.ai/k-PENDING-viduq3-api-model) for anything this model adds on top.
+The table lists the fields accepted by the APIMart OpenAI-compatible video endpoint. Check the [model page](https://go.apimart.ai/k-5852fb) for anything this model adds on top.
 
 ## Quickstart
 
@@ -100,15 +100,15 @@ Runnable versions: [`examples/`](examples). The task lifecycle is `pending → p
 
 **How do I get a key?**
 
-Use the [Get an API key](https://go.apimart.ai/k-49aa8d) link — $1 minimum top-up, no plan required.
+Use the [Get an API key](https://go.apimart.ai/k-3ad231) link — $1 minimum top-up, no plan required.
 
 ## Attributed links (how this repository is measured)
 
 | Purpose | Attributed link | Target |
 | --- | --- | --- |
-| Model page | <https://go.apimart.ai/k-PENDING-viduq3-api-model> | `apimart.ai/model/viduq3` |
-| Live pricing | <https://go.apimart.ai/k-PENDING-viduq3-api-pricing> | `apimart.ai/pricing` |
-| Get an API key | <https://go.apimart.ai/k-49aa8d> | `apimart.ai/keys` |
+| Model page | <https://go.apimart.ai/k-5852fb> | `apimart.ai/model/viduq3` |
+| Live pricing | <https://go.apimart.ai/k-aee9c4> | `apimart.ai/pricing` |
+| Get an API key | <https://go.apimart.ai/k-3ad231> | `apimart.ai/keys` |
 
 Outbound APIMart links are minted through the promo link API; hand-made tracking parameters are rejected by
 `tools/check_links.py` in CI.
